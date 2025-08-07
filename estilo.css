@@ -1,0 +1,115 @@
+/* Estilo general */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #c5c55e;
+    color: #333;
+}
+
+/* Selector por ID: Cabecera */
+#cabecera {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    border-bottom: 4px solid #ffcc99;
+}
+
+#cabecera h1 {
+    color: #9b59b6;
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.pollito-logo {
+    width: 200px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+/* Selector de clase: Sección de introducción */
+.seccion-introduccion {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Selector de clase: Sección de misión */
+.seccion-mision {
+    background-color: #ffe6cc; 
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+}
+
+/* Selector de clase: Sección de estudios */
+.seccion-estudios {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Selector de clase: Sección de estudios aprendidos */
+.seccion-estudiosaprendidos {
+    background-color: #ffe6cc;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Selector de clase: Pie de página */
+.pie-pagina {
+    text-align: center;
+    font-size: 0.9em;
+    color: #666;
+    padding: 15px;
+    background-color: #fff;
+    margin-top: 30px;
+    border-top: 4px solid #ffcc99;
+}
+
+/* Títulos */
+h1, h2 {
+    color: #9b59b6; 
+    font-weight: bold;
+}
+
+h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* Cada palabra tiene su color */
+.titulo-mision .mision {
+    color: #9b59b6; 
+}
+
+.titulo-mision .pollito {
+    color: #f1c42f;
+}
+
+.titulo-mision .ultra {
+    color: #fc6998; 
+}
+
+/* Listas */
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin-left: 20px;
+}
+
+ul li {
+    background-color: #fff;
+    margin: 5px 0;
+    padding: 10px;
+    border-left: 5px solid #ff6b6b; /* Rosado */
+}
