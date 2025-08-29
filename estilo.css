@@ -8,29 +8,67 @@ body {
     color: #333;
 }
 
-/* Selector por ID: Cabecera */
+/* Cabecera (ajustada para portada) */
 #cabecera {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+/* Portada */
+.portada {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* ocupa toda la pantalla */
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.portada-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block; /* quita espacios blancos */
+}
+
+.contenido-portada {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     text-align: center;
-    padding: 20px;
-    background-color: #fff;
-    border-bottom: 4px solid #ffcc99;
 }
 
-#cabecera h1 {
-    color: #9b59b6;
-    font-size: 3.5rem;
+/* Título sobre portada */
+.titulo-mision {
+    font-size: 4rem;
     font-weight: bold;
-    margin-bottom: 10px;
+    color: white;
+    text-shadow: 2px 2px 10px rgba(0,0,0,0.7);
+    margin-bottom: 20px;
 }
 
+/* Cada palabra tiene su color */
+.titulo-mision .mision {
+    color: #9b59b6;
+}
+
+.titulo-mision .pollito {
+    color: #f1c42f;
+}
+
+.titulo-mision .ultra {
+    color: #fc6998;
+}
+
+/* Logo encima de la portada */
 .pollito-logo {
     width: 200px;
     height: auto;
-    display: block;
-    margin: 20px auto;
 }
 
-/* Selector de clase: Sección de introducción */
+/* Sección de introducción */
 .seccion-introduccion {
     background-color: #fff;
     padding: 20px;
@@ -39,7 +77,7 @@ body {
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
-/* Selector de clase: Sección de misión */
+/* Sección de misión */
 .seccion-mision {
     background-color: #ffe6cc; 
     padding: 20px;
@@ -47,7 +85,7 @@ body {
     border-radius: 8px;
 }
 
-/* Selector de clase: Sección de estudios */
+/* Sección de estudios */
 .seccion-estudios {
     background-color: #fff;
     padding: 20px;
@@ -56,7 +94,7 @@ body {
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
-/* Selector de clase: Sección de estudios aprendidos */
+/* Sección de estudios aprendidos */
 .seccion-estudiosaprendidos {
     background-color: #ffe6cc;
     padding: 20px;
@@ -65,7 +103,7 @@ body {
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
-/* Selector de clase: Pie de página */
+/* Pie de página */
 .pie-pagina {
     text-align: center;
     font-size: 0.9em;
@@ -85,19 +123,6 @@ h1, h2 {
 h2 {
     margin-top: 20px;
     margin-bottom: 10px;
-}
-
-/* Cada palabra tiene su color */
-.titulo-mision .mision {
-    color: #9b59b6; 
-}
-
-.titulo-mision .pollito {
-    color: #f1c42f;
-}
-
-.titulo-mision .ultra {
-    color: #fc6998; 
 }
 
 /* Listas */
