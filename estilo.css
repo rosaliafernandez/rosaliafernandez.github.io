@@ -138,3 +138,54 @@ ul li {
     padding: 10px;
     border-left: 5px solid #ff6b6b; /* Rosado */
 }
+
+/* Celulares: hasta 480px */
+@media screen and (max-width: 480px) {
+    .titulo-mision {
+        font-size: 2.5rem; /* reducir tamaño del título */
+    }
+    .pollito-logo {
+        width: 120px; /* reducir tamaño del logo */
+    }
+    .seccion-introduccion,
+    .seccion-mision,
+    .seccion-estudios,
+    .seccion-estudiosaprendidos {
+        margin: 10px;
+        padding: 15px;
+    }
+}
+
+/* Tablets: hasta 768px */
+@media screen and (max-width: 768px) {
+    .titulo-mision {
+        font-size: 3rem;
+    }
+    .pollito-logo {
+        width: 160px;
+    }
+    .seccion-introduccion,
+    .seccion-mision,
+    .seccion-estudios,
+    .seccion-estudiosaprendidos {
+        margin: 15px;
+        padding: 18px;
+    }
+}
+
+/* Escritorio: desde 1024px */
+@media screen and (min-width: 1024px) {
+    .titulo-mision {
+        font-size: 4rem;
+    }
+    .pollito-logo {
+        width: 200px;
+    }
+    .seccion-introduccion,
+    .seccion-mision,
+    .seccion-estudios,
+    .seccion-estudiosaprendidos {
+        margin: 20px;
+        padding: 20px;
+    }
+}
